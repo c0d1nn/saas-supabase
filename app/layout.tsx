@@ -1,7 +1,5 @@
 import './globals.css'
 import Navbar from '../components/navbar'
-import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
-import { cookies } from 'next/headers'
 import { Bricolage_Grotesque } from 'next/font/google'
 import { cn } from '@/lib/utils'
 
