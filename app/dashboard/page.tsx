@@ -147,7 +147,7 @@ export default async function Dashboard() {
           </div>
         ) : (
           <div>
-            <p className="text-yellow-600 mb-4">You don't have an active subscription.</p>
+            <p className="text-yellow-600 mb-4">You dont have an active subscription.</p>
             <Button asChild>
               <Link href="/pricing">View Pricing Plans</Link>
             </Button>
