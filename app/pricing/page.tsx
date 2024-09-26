@@ -72,7 +72,7 @@ export default function PricingPage() {
               </Button>
             </div>
             <div className="px-6 pt-6 pb-8 bg-muted">
-              <h4 className="text-sm font-medium text-card-foreground uppercase tracking-wide">What's included</h4>
+              <h4 className="text-sm font-medium text-card-foreground uppercase tracking-wide">Whats included</h4>
               <ul className="mt-6 space-y-4">
                 <li className="flex space-x-3">
                   <svg className="flex-shrink-0 h-5 w-5 text-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">

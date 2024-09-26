@@ -52,7 +52,6 @@ export async function POST(req: Request) {
     // Handle subscription updates
     if (event.type === 'customer.subscription.updated' || event.type === 'customer.subscription.deleted') {
       const subscription = event.data.object as Stripe.Subscription
-      const userId = subscription.metadata.userId // Make sure to add this metadata when creating the subscription
 
       const { error } = await supabase
         .from('profiles')
